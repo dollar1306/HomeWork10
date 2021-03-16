@@ -34,11 +34,11 @@ public class Bonus {
         System.out.println(i+" times news exists in the page");
     }
 
-    @Test
-    public void testJavaScript(){
-        ((JavascriptExecutor)chromeDriver).executeScript("window.print();");
-
-    }
+//    @Test
+//    public void testJavaScript(){
+//        ((JavascriptExecutor)chromeDriver).executeScript("window.print();");
+//
+//    }
 
     @Test
     public void testQuestion2WithNgTest(){
